@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #42d7f5;
+    background-repeat: none;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 40px;
+}
+#myInput {
+    /* background-image: url('/css/searchicon.png'); */
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    /* Do not repeat the icon image */
+    width: 90%;
+    border-radius: 20px;
+    /* Full-width */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 20px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    margin-bottom: 25px;
+    /* Add some space below the input */
+    margin-left: 44px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    /* Collapse borders */
+    width: 100%;
+    /* Full-width */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    font-size: 14px;
+    /* Increase font-size */
+}
+th{
+    color: black;
+    font-size: 28px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#myTable th,
+#myTable td {
+    text-align: left;
+    /* Left-align text */
+    padding: 22px;
+    /* Add padding */
+    color: black;
+    font-family: 'Asap', sans-serif;
+    font-size: 35px;
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid rgb(250, 250, 250);
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+   
+    background-color: #b7e4db09;
+ } 
